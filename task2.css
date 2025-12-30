@@ -1,0 +1,112 @@
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.two{
+    display: flex;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.leftside{
+    width: 20%;
+    background-color: ivory;
+    padding: 4px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.leftside h3{
+    margin-bottom: 20px;
+    
+}
+
+.coustomer{
+    display: flex;
+    align-items: center ;
+    margin-bottom: 70px;
+   
+}
+
+.shape{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    color:white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 10px;
+   
+    font-weight: bold;
+}
+
+
+.butto{
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+
+    
+}
+
+.content
+{
+    width: 80%;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content h1{
+    font-size: 30px;
+}
+
+.content p {
+    text-align: center;
+    color: gray;
+
+}
+
+.content encrypt{
+    margin-top: 50px;
+    font-size: 14px;
+
+}
+
+.img{
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+@media(max-width=700px)
+{
+   
+
+    .two{
+        width:200px;
+        height: 100px;
+        display: flex;
+
+    }
+
+    .img{
+        width: 10px;
+        margin-bottom: 10px;
+    }
+}
